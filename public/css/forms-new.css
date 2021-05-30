@@ -1,0 +1,73 @@
+
+.container {
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 10%;
+    text-align: center;
+  }
+  
+  h3 {
+    font-weight: 500;
+    color: grey;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 15px;
+    margin-top: 20px;
+    color: grey;
+  }
+  
+  
+  input {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 17px;
+    margin: 20px 0px;
+    border-radius: 20px;
+    text-align: center;
+   
+    background-color: #f0f0f0;
+    border: none;
+    box-shadow: inset 5px 5px 10px #cccccc, inset -5px -5px 10px #ffffff;
+  }
+  
+  input:focus {
+    outline: 0;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    background: #f0f0f0;
+    border: none;
+    box-shadow: 5px 5px 10px #bbbbbb, -5px -5px 10px #ffffff;
+    color: #f25f5c;
+  }
+  
+  button.forgot {
+    margin-top: 10px;
+  }
+  
+  button:focus {
+    box-shadow: inset 5px 5px 10px #bbbbbb, inset -5px -5px 10px #ffffff;
+    outline: 0;
+  }
+  
+  button.sn {
+    width: 50px;
+    margin: 15px 5px;
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 10px;
+  }
+  .fax-login{
+   
+      background-color: #FFF;
+     border: 2px #cccccc solid;
+     border-radius: 20px; 
+     padding: 20px;
+  }
